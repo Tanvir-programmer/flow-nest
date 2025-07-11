@@ -85,7 +85,7 @@ nav h1{
     font-size: 30px;
    
 }
-.action-text, .column p, .cart-text{
+.action-text, .column p, .cart-text,.focus-text{
     margin: 20px 0;
     color: rgba(37, 36, 50, 0.5);
 }
@@ -176,6 +176,7 @@ nav h1{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 .contact-header{
     font-size: 34px;
@@ -206,4 +207,76 @@ textarea{
     box-shadow: rgba(216, 200, 200, 0.924) 0px 2px 8px;
     margin-bottom: 20px;
 }
+.focus-section-container{
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: rgba(242, 237, 237, 1);
+    border-radius: 10px;
+    border: 1px solid rgba(78, 71, 255, 0.1);
+    
+}
 
+/* footer section styles starts here */
+.footer-container{
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.footer-header{
+    font-size: 44px;
+    font-weight: black;
+    color: #4E47FF;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-text{
+    text-align: center;
+    padding: 20px 0;
+    color: rgba(37, 36, 50, 0.5);
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.footer-btn{
+     display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.footer-links ul{
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+.footer-links ul li{
+    list-style: none;
+}
+.footer-links ul li a{
+    text-decoration: none;
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 18px;
+}
+.focus-header{
+    text-align: center;
+    padding: 20px 0;
+}
+.focus-text{
+    text-align: center;
+}
+.focus-section-container button{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.focus-img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 24px;
+    box-shadow: rgba(242, 237, 237, 1);
+   
+}
+.focus-img img{
+    
+    border-radius: 24px;
+}
