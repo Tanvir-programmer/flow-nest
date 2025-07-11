@@ -171,3 +171,39 @@ nav h1{
 .user-review h4{
     color: rgba(0, 0, 0, 0.628);;
 }
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.contact-header{
+    font-size: 34px;
+    font-weight: black;
+    color: black;
+    padding-right: 100px;
+    
+    width: 300px;
+}
+input, textarea{
+    display: block;
+    margin: 10px 0;
+}
+input{
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(216, 200, 200, 0.924) 0px 2px 8px;
+}
+textarea{
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(216, 200, 200, 0.924) 0px 2px 8px;
+    margin-bottom: 20px;
+}
+
