@@ -1,8 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
+
+
 /* shared styles */
 .raleway-simple {
   font-family: "Raleway", sans-serif;
@@ -82,10 +83,11 @@ nav h1{
     color: rgba(37, 36, 50, 1);
     margin-bottom: 10px;
     font-size: 30px;
+   
 }
-.action-text, .column p{
+.action-text, .column p, .cart-text{
     margin: 20px 0;
-   color: rgba(37, 36, 50, 0.5);
+    color: rgba(37, 36, 50, 0.5);
 }
 .action-text-area{
     padding-right: 50px;
@@ -106,7 +108,7 @@ nav h1{
     padding: 20px 0;
     
 }
-.user-header{
+.user-header, .feedback-header{
     text-align: center;
     padding: 20px;
 }
@@ -114,4 +116,58 @@ nav h1{
     color: #4E47FF;
     font-size: 44px;
     font-weight: 600;
+}
+.feedback-container{
+    margin: 0 auto;
+    margin-bottom: 100px;
+    
+}
+.feedback-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.cart1, .cart2, .cart3{
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: rgba(242, 237, 237, 1);
+    border-radius: 24px;
+    border: 1px solid rgba(78, 71, 255, 0.1);
+    padding: 20px;
+    width: 30%;
+}
+.cart-header{
+    margin: 10px;
+    
+
+    
+}
+.cart-text{
+    padding-left: 10px;
+}
+.cart1 i, .cart2 i, .cart3 i{
+    color: goldenrod;
+    padding-left: 10px;
+}
+.feedback-header{
+    font-size: 24px;
+    font-weight: 600;
+}
+.user-img-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.user-img-container img{
+    border-radius: 50%;
+}
+.user-review p{
+     margin-bottom: 10px;
+     color: rgba(37, 36, 50, 0.5);
+}
+.user-review h4{
+    color: rgba(0, 0, 0, 0.628);;
 }
